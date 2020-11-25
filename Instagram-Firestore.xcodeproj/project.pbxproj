@@ -13,6 +13,7 @@
 		37C70E58256F0723007F6F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C70E56256F0723007F6F0B /* Main.storyboard */; };
 		37C70E5A256F0724007F6F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C70E59256F0724007F6F0B /* Assets.xcassets */; };
 		37C70E5D256F0724007F6F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C70E5B256F0724007F6F0B /* LaunchScreen.storyboard */; };
+		37C70E6C256F0CD7007F6F0B /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70E6B256F0CD7007F6F0B /* MainTabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		37C70E59256F0724007F6F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37C70E5C256F0724007F6F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37C70E5E256F0724007F6F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C70E6B256F0CD7007F6F0B /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,12 @@
 		37C70E4F256F0723007F6F0B /* Instagram-Firestore */ = {
 			isa = PBXGroup;
 			children = (
+				37C70E6A256F0BB9007F6F0B /* Model */,
+				37C70E69256F0BB5007F6F0B /* View */,
+				37C70E68256F0BB2007F6F0B /* ViewModel */,
+				37C70E67256F0BAF007F6F0B /* Controller */,
+				37C70E66256F0BA9007F6F0B /* API */,
+				37C70E65256F0BA4007F6F0B /* Utils */,
 				37C70E50256F0723007F6F0B /* AppDelegate.swift */,
 				37C70E52256F0723007F6F0B /* SceneDelegate.swift */,
 				37C70E54256F0723007F6F0B /* ViewController.swift */,
@@ -65,6 +73,49 @@
 				37C70E5E256F0724007F6F0B /* Info.plist */,
 			);
 			path = "Instagram-Firestore";
+			sourceTree = "<group>";
+		};
+		37C70E65256F0BA4007F6F0B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		37C70E66256F0BA9007F6F0B /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		37C70E67256F0BAF007F6F0B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37C70E6B256F0CD7007F6F0B /* MainTabController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37C70E68256F0BB2007F6F0B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37C70E69256F0BB5007F6F0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37C70E6A256F0BB9007F6F0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +190,7 @@
 			files = (
 				37C70E55256F0723007F6F0B /* ViewController.swift in Sources */,
 				37C70E51256F0723007F6F0B /* AppDelegate.swift in Sources */,
+				37C70E6C256F0CD7007F6F0B /* MainTabController.swift in Sources */,
 				37C70E53256F0723007F6F0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
