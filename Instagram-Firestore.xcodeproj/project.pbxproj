@@ -19,6 +19,8 @@
 		37C70E76256F117F007F6F0B /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70E75256F117F007F6F0B /* ImageSelectorController.swift */; };
 		37C70E79256F1195007F6F0B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70E78256F1195007F6F0B /* NotificationController.swift */; };
 		37C70E7C256F11A8007F6F0B /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70E7B256F11A8007F6F0B /* ProfileController.swift */; };
+		37C70EAB25702D53007F6F0B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70EAA25702D53007F6F0B /* FeedCell.swift */; };
+		37C70EAE257030A3007F6F0B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70EAD257030A3007F6F0B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		37C70E75256F117F007F6F0B /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
 		37C70E78256F1195007F6F0B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		37C70E7B256F11A8007F6F0B /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		37C70EAA25702D53007F6F0B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		37C70EAD257030A3007F6F0B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		37C70E65256F0BA4007F6F0B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				37C70EAD257030A3007F6F0B /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 		37C70E69256F0BB5007F6F0B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				37C70EAA25702D53007F6F0B /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C70E55256F0723007F6F0B /* ViewController.swift in Sources */,
+				37C70EAB25702D53007F6F0B /* FeedCell.swift in Sources */,
 				37C70E76256F117F007F6F0B /* ImageSelectorController.swift in Sources */,
 				37C70E79256F1195007F6F0B /* NotificationController.swift in Sources */,
 				37C70E73256F116C007F6F0B /* SearchController.swift in Sources */,
@@ -211,6 +218,7 @@
 				37C70E7C256F11A8007F6F0B /* ProfileController.swift in Sources */,
 				37C70E70256F115F007F6F0B /* FeedController.swift in Sources */,
 				37C70E6C256F0CD7007F6F0B /* MainTabController.swift in Sources */,
+				37C70EAE257030A3007F6F0B /* Extensions.swift in Sources */,
 				37C70E53256F0723007F6F0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -343,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
