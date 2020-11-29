@@ -21,6 +21,8 @@
 		37C70E7C256F11A8007F6F0B /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70E7B256F11A8007F6F0B /* ProfileController.swift */; };
 		37C70EAB25702D53007F6F0B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70EAA25702D53007F6F0B /* FeedCell.swift */; };
 		37C70EAE257030A3007F6F0B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C70EAD257030A3007F6F0B /* Extensions.swift */; };
+		37D1137D2573269B0039F77F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1137C2573269B0039F77F /* LoginController.swift */; };
+		37D11381257326B50039F77F /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D11380257326B50039F77F /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		37C70E7B256F11A8007F6F0B /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		37C70EAA25702D53007F6F0B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		37C70EAD257030A3007F6F0B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		37D1137C2573269B0039F77F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		37D11380257326B50039F77F /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		37C70E67256F0BAF007F6F0B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				37D1137B2573267E0039F77F /* Athentication */,
 				37C70E6B256F0CD7007F6F0B /* MainTabController.swift */,
 				37C70E6F256F115F007F6F0B /* FeedController.swift */,
 				37C70E72256F116C007F6F0B /* SearchController.swift */,
@@ -137,6 +142,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		37D1137B2573267E0039F77F /* Athentication */ = {
+			isa = PBXGroup;
+			children = (
+				37D1137C2573269B0039F77F /* LoginController.swift */,
+				37D11380257326B50039F77F /* RegistrationController.swift */,
+			);
+			path = Athentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C70E55256F0723007F6F0B /* ViewController.swift in Sources */,
+				37D1137D2573269B0039F77F /* LoginController.swift in Sources */,
 				37C70EAB25702D53007F6F0B /* FeedCell.swift in Sources */,
 				37C70E76256F117F007F6F0B /* ImageSelectorController.swift in Sources */,
 				37C70E79256F1195007F6F0B /* NotificationController.swift in Sources */,
@@ -220,6 +235,7 @@
 				37C70E6C256F0CD7007F6F0B /* MainTabController.swift in Sources */,
 				37C70EAE257030A3007F6F0B /* Extensions.swift in Sources */,
 				37C70E53256F0723007F6F0B /* SceneDelegate.swift in Sources */,
+				37D11381257326B50039F77F /* RegistrationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

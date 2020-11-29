@@ -60,6 +60,7 @@ class FeedCell: UICollectionViewCell {
     private let likesLabel: UILabel = {
         let label = UILabel()
         label.text = "1 like"
+        label.textColor = .black
         label.font = UIFont.boldSystemFont(ofSize: 13)
         return label
     }()
@@ -67,6 +68,7 @@ class FeedCell: UICollectionViewCell {
     private let captionLabel: UILabel = {
         let label = UILabel()
         label.text = "Some test caption for now..."
+        label.textColor = .black
         label.font = UIFont.systemFont(ofSize: 14)
         return label
     }()
